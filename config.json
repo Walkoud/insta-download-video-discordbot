@@ -1,5 +1,8 @@
 {
     "token": "",
     "prefix": "!",
-    "commandname": "instadel"
+    "commandname": "instadel",
+
+    "onlyONEchannel": false,
+    "channelid": ""
 }

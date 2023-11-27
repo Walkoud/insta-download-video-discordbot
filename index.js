@@ -7,7 +7,7 @@
  ╚══╝╚══╝ ╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝ ╚═════╝  ╚═════╝ ╚═════╝       ╚═╝╚═════╝ 
                                                                              
 
-github.com/Walkoud/insta-download-video-discordbot
+ github.com/walkoud
 
  please leave a star <3
                                                     
@@ -53,7 +53,9 @@ client.on('messageCreate', message => {
       message.channel.send('Hello!');
     }
 
-    if (command === config.commandname) { // Handle specific command
+    if (command === config.commandname ) { // Instagram download command
+      if(config.onlyONEchannel && config.channelid !== message.channel.id)return message.reply("Only in channel <#"+config.channelid+">").then((m) => {deleteMessage(m)})
+
       deleteMessage(message);
 
       let videoUrl = args[0];
@@ -72,7 +74,7 @@ client.on('messageCreate', message => {
 
       async function sendVideo(fileName) {
         try {
-          await message.channel.send({ files: [fileName] });
+          await message.channel.send({ content: `download by : \`${message.author.username}\``, files: [fileName] });
           message.reply('The video has been successfully sent!').then((m) => { deleteMessage(m) });
         } catch (error) {
           console.error('Error sending the video:', error);
