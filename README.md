@@ -8,7 +8,7 @@
 
 ### Download
 - Download the zip https://github.com/Walkoud/insta-download-video-discordbot/archive/master.zip <br/>
-- Download Nodejs [Node.js](https://nodejs.org/) v4+ to run. <br/>
+- Download Nodejs [Node.js](https://nodejs.org/) Recommended. <br/>
 
 ### Configuration
 - Edit config.json
