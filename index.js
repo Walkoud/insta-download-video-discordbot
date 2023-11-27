@@ -7,7 +7,7 @@
  ╚══╝╚══╝ ╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝ ╚═════╝  ╚═════╝ ╚═════╝       ╚═╝╚═════╝ 
                                                                              
 
- github.com/walkoud
+ github.com/Walkoud/insta-download-video-discordbot
 
  please leave a star <3
                                                     
