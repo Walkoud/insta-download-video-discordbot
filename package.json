@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "@sasmeee/igdl": "^1.0.0",
+    "axios": "^1.6.2",
+    "discord.js": "^13.17.1",
+    "fs": "^0.0.1-security"
+  }
+}
